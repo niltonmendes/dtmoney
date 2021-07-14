@@ -15,14 +15,8 @@ export function TransactionsTable() {
                 <thead>
                     <tr>
                         <th>Título</th>
-                    </tr>
-                    <tr>
                         <th>Valor</th>
-                    </tr>
-                    <tr>
                         <th>Categoria</th>
-                    </tr>
-                    <tr>
                         <th>Data</th>
                     </tr>
                 </thead>
