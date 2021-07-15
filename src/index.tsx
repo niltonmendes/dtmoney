@@ -33,16 +33,8 @@ createServer({
   },
 
   routes() {
-    let env = 'prod';
-
-    if(env === 'dev') {
-      this.urlPrefix = 'http://localhost:3000/'
-    } 
-
-    if (env === 'prod') {
-      this.urlPrefix = 'https://jovial-tesla-db8faa.netlify.app/'
-    }
-    
+    // change url for dev env 'http://localhost:3000/'
+    this.urlPrefix = 'https://jovial-tesla-db8faa.netlify.app/'
     this.namespace = 'api';
 
     this.get('/transactions', () => {
