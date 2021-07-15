@@ -33,7 +33,7 @@ createServer({
   },
 
   routes() {
-    this.namespace = 'https://jovial-tesla-db8faa.netlify.app/api';
+    this.namespace = 'api';
 
     this.get('/transactions', () => {
       return this.schema.all('transaction');
